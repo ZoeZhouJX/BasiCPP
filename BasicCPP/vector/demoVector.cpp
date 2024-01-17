@@ -15,7 +15,7 @@ typedef struct Stu_info
 
 int main(int argc, char const *argv[])
 {
-#if 0
+#if 1
     vector<int> myvec;
 
     /* 插入数据 */
@@ -29,7 +29,7 @@ int main(int argc, char const *argv[])
     printf("capacit = %d\n", capacit);
 #endif
 
-#if 1
+#if 0
     Stu_info stu1, stu2, stu3;
     memset(&stu1, 0, sizeof(stu1));
     memset(&stu2, 0, sizeof(stu2));
